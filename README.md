@@ -212,6 +212,37 @@ Rarity colors: Beau Blue (Common) · Middle Purple (Rare) · Lifted Jaracta (Epi
 - Stellar docs: <https://developers.stellar.org>
 - Freighter wallet: <https://www.freighter.app>
 
+## Transaction Example
+
+This project includes transaction tracking for collectible card purchases and ownership updates.
+
+### Sample Transaction Record
+
+```json
+{
+  "transactionHash": "20e33fb166652ede3053f5e019f0740eee7bc2937a5f18d85d4de1aee79e9973",
+  "userName": "Afra",
+  "project": "Stellar Cardverse",
+  "transactionType": "Card Purchase",
+  "cardName": "Legendary Collection Card",
+  "status": "Completed",
+  "network": "Stellar",
+  "date": "2026-05-03"
+}
+```
+
+### Description
+
+This transaction represents a successful collectible card purchase recorded on the Stellar Cardverse platform. Each transaction is stored with a unique transaction hash to ensure transparency, ownership verification, and secure history tracking.
+
+### Why Transactions Matter
+
+* Tracks card ownership history
+* Confirms successful purchases
+* Provides secure and transparent records
+* Helps users view transaction history
+* Supports blockchain-based verification
+
 ## License
 
 Private / educational project. Not yet deployed to mainnet.
