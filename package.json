@@ -1,0 +1,24 @@
+{
+  "name": "stellar-cardverse",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup": "node scripts/setup-issuer.js",
+    "mint": "node scripts/mint-cards.js",
+    "test:e2e": "node scripts/e2e-test.js"
+  },
+  "dependencies": {
+    "@stellar/freighter-api": "^4.1.0",
+    "@stellar/stellar-sdk": "^13.1.0",
+    "dotenv": "^16.4.5",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}
