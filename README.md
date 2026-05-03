@@ -243,6 +243,9 @@ This transaction represents a successful collectible card purchase recorded on t
 * Helps users view transaction history
 * Supports blockchain-based verification
 
+<img width="1895" height="875" alt="image" src="https://github.com/user-attachments/assets/15820340-bd4a-4330-9b60-d421a7653c60" />
+
+
 ## License
 
 Private / educational project. Not yet deployed to mainnet.
