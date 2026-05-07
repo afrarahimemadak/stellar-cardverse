@@ -34,6 +34,7 @@ yarn-error.log*
 .project
 .classpath
 .settings/
+.claude/
 
 # --- OS files --------------------------------------------------------
 .DS_Store
@@ -54,3 +55,7 @@ coverage/
 *.pem
 .vercel
 .turbo
+
+# --- Rust / Cargo build artifacts -----------------------------------
+target/
+**/target/
